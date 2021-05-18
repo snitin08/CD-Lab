@@ -1,0 +1,16 @@
+Enter the string
+Hello world
+Welcome
+Words: 3
+Spaces: 1
+        Lines: 2
+chars: 17
+
+
+Enter the string
+Hello
+Count the number of words
+Words: 6
+Spaces: 4
+        Lines: 2
+chars: 26
