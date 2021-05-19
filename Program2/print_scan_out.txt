@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+writef("hfgjxfdj");
+readf("khfg");
+writef("kdgfghj");The no. of printf's are 2
+                scanf's are1
+
+
