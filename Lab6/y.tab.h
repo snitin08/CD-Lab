@@ -49,21 +49,11 @@ extern int yydebug;
 # define YYTOKENTYPE
   enum yytokentype
   {
-    FOR = 258,
-    VARIABLE = 259,
-    COMP = 260,
-    UNARY = 261,
-    NUM = 262,
-    BIN = 263
+    NUM = 258
   };
 #endif
 /* Tokens.  */
-#define FOR 258
-#define VARIABLE 259
-#define COMP 260
-#define UNARY 261
-#define NUM 262
-#define BIN 263
+#define NUM 258
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
