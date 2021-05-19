@@ -1,0 +1,17 @@
+abbc
+Vaild string
+
+abbbcc
+Vaild string
+
+abcc
+Invalid string
+
+bc 
+Vaild string
+
+ac
+Invalid string
+
+ab
+Vaild string
