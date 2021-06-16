@@ -1,5 +1,5 @@
 %{
-    #include "yac4.tab.h"
+    #include "y.tab.h"
     extern yylval;
 %}
 ALPHA [A-Za-z]

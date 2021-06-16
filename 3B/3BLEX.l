@@ -1,5 +1,5 @@
 %{
-#include "3BYACC.tab.c"
+#include "y.tab.h"
 %}
 alpha [a-zA-Z]
 digit [0-9]
