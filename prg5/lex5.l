@@ -2,7 +2,7 @@
     #include "y.tab.h"
     extern yylval;
 %}
-ALPHA [A-Za-z]
+ALPHA [A-Za-z_]
 DIGIT [0-9]
 %%
 
