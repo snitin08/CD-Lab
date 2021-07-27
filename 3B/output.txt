@@ -1,0 +1,29 @@
+int hello(int a,int b){
+ int res;
+ if(a>b)
+  res= a;
+  else
+  res= b;
+}
+
+Parsing Complete
+----------------------------
+int hello(){
+ int a;
+ while(i<10){
+     a=7;
+ }
+}
+
+Parsing Complete
+--------------------------------
+int func(a,int b)
+{
+    int i=0;
+    while(i<10)
+      a=a+b;
+    }
+    return a;
+}
+Invalid definition! Error at line number 0
+Parsing failed

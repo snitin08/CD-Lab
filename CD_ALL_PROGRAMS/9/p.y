@@ -35,14 +35,14 @@ void lab4();
 
 %%
 
-S       : FOR '(' E ';'{lab1();} comp {lab2();}';' E {lab3();}')' E';'{lab4(); exit(0);}
-         ;
+S: FOR '(' E ';'{lab1();} comp {lab2();}';' E {lab3();}')' E';'{lab4(); exit(0);}
+;
          
-comp : E{push();} '>' E{codegen();}
+comp: E{push();} '>' E{codegen();}
      | E{push();} '<' E{codegen();}
      |
      ;
-E       : V '='{push();} E{codegen_assign();}
+E: V '='{push();} E{codegen_assign();}
          | E '+'{push();} E{codegen();}
          | E '-'{push();} E{codegen();}
          | E '*'{push();} E{codegen();}
@@ -52,7 +52,7 @@ E       : V '='{push();} E{codegen_assign();}
          | V
          | NUM{push();}
          ;
-V       : ID {push();}
+V: ID {push();}
          ;
 
 %%

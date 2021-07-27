@@ -1,0 +1,19 @@
+(base) PS E:\Nitin\RVCE\6 sem\CD\CD-Lab\4> .\a.exe
+Enter the expression : a=b+c*d/e-f
+t0 = c * d
+t1 = t0 / e
+t2 = b + t1
+t3 = t2 - f
+a = t3
+(base) PS E:\Nitin\RVCE\6 sem\CD\CD-Lab\4> .\a.exe
+Enter the expression : b+c=d
+
+Expression is invalid
+(base) PS E:\Nitin\RVCE\6 sem\CD\CD-Lab\4> .\a.exe
+Enter the expression : a=(b+c)/d*f+g
+t0 = b + c 
+t1 = t0 / d
+t2 = t1 * f
+t3 = t2 + g
+a = t3     
+(base) PS E:\Nitin\RVCE\6 sem\CD\CD-Lab\4>

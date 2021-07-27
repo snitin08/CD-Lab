@@ -1,0 +1,24 @@
+(base) PS E:\Nitin\RVCE\6 sem\CD\CD-Lab\5> .\a.exe
+Enter the expression:a=b+c*d/e
+MOV R0,c
+MOV R1,d
+MUL R1,R0
+MOV R2,e
+DIV R2,R1
+MOV R4,b
+ADD R2,R4
+STR R2,a
+
+---------------------------
+Enter the expression:a=(b+c)/d-e*f
+MOV R0,b
+MOV R1,c
+ADD R1,R0
+MOV R2,d
+DIV R2,R1
+MOV R4,e
+MOV R5,f
+MUL R5,R4
+SUB R5,R2
+STR R5,a
+

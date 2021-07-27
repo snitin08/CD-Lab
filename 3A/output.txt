@@ -1,0 +1,26 @@
+for(;;)
+    for(;;)
+        for(k=0;k<10;k++)
+            call(x);   
+        
+Valid statement
+No. of nested FOR's are: 3
+
+for(i=0;i<n;i++)
+    for(j=0;j<n;j++)
+    {
+        call(x);
+        for(k=0;k<10;k++)
+        ;
+    } 
+
+Valid statement
+No. of nested FOR's are: 3
+
+for(i=0;i<=10;i++)
+{
+    for i=10;i<10;i++
+    call(i)
+}
+
+Invalid statement

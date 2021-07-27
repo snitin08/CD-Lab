@@ -52,6 +52,8 @@ int main()
 void push()
 {
     strcpy(st[++top],yytext);
+    // printf(yytext);
+    // printf("\n");
 }
 void codegen()
 {

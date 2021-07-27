@@ -14,7 +14,7 @@ char temp[200] , temp2[200];
 %left '.'
 %nonassoc '*' '+'
 %%/*rules section*/
-S : re '\n' { 
+S: re '\n' { 
 printf ( "This is the rightmost derivation--\n" );
 for ( i = count - 1 ; i >= 0 ; --i ) {
     if ( i == count - 1 ) {
@@ -34,7 +34,7 @@ for ( i = count - 1 ; i >= 0 ; --i ) {
 printf ( "\n" );
 exit ( 0 ); 
 }
-re : ALPHABET { 
+re: ALPHABET { 
 temp[0] = yylval; temp[1] = '\0';
 strcpy ( productions[count++] , temp );/*copy the input to the prodcution array*/
 }/*only conditions defined here will be valid, this is the structure*/
